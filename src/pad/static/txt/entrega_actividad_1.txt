@@ -1,0 +1,119 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Kuala Lumpur is the capital of which country?",
+            "correct_answer": "Malaysia",
+            "incorrect_answers": [
+                "Indonesia",
+                "Singapore",
+                "Thailand"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Entertainment: Film",
+            "question": "Which of these Disney classics was released in 1970?",
+            "correct_answer": "The Aristocats",
+            "incorrect_answers": [
+                "One Hundred and One Dalmatians",
+                "The Fox and the Hound",
+                "The Little Mermaid"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Antarctica is the largest desert in the world.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Entertainment: Music",
+            "question": "Who recorded the album called &quot;Down to the Moon&quot; in 1986?",
+            "correct_answer": "Andreas Vollenweider",
+            "incorrect_answers": [
+                "Jean-Michel Jarre",
+                "Bing Crosby",
+                "Enya"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Celebrities",
+            "question": "How much weight did Chris Pratt lose for his role as Star-Lord in &quot;Guardians of the Galaxy&quot;?",
+            "correct_answer": "60 lbs",
+            "incorrect_answers": [
+                "30 lbs",
+                "50 lbs",
+                "70 lbs"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Entertainment: Film",
+            "question": "In the &quot;Jurassic Park&quot; universe, when did &quot;Jurassic Park: San Diego&quot; begin construction?",
+            "correct_answer": "1985",
+            "incorrect_answers": [
+                "1988",
+                "1986",
+                "1993"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "medium",
+            "category": "Entertainment: Video Games",
+            "question": "The character that would eventually become Dr. Eggman was considered for the role of Sega&#039;s new flagship mascot before Sonic was.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Entertainment: Video Games",
+            "question": "What military rank is the protagonist &quot;Nomad&quot; in &quot;Crysis&quot;?",
+            "correct_answer": "First Lieutenant",
+            "incorrect_answers": [
+                "Captain",
+                "First Sargent ",
+                "Staff Sargent"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "United States President Ronald Reagan was the first president to appoint a woman to the Supreme Court. ",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Entertainment: Video Games",
+            "question": "In &quot;PUBATTLEGROUNDS&quot; what is the name of the Military Base island?",
+            "correct_answer": "Sosnovka",
+            "incorrect_answers": [
+                "Novorepnoye",
+                "Mylta",
+                "Yasnaya"
+            ]
+        }
+    ]
+}{'response_code': 0, 'results': [{'type': 'multiple', 'difficulty': 'medium', 'category': 'Geography', 'question': 'Kuala Lumpur is the capital of which country?', 'correct_answer': 'Malaysia', 'incorrect_answers': ['Indonesia', 'Singapore', 'Thailand']}, {'type': 'multiple', 'difficulty': 'medium', 'category': 'Entertainment: Film', 'question': 'Which of these Disney classics was released in 1970?', 'correct_answer': 'The Aristocats', 'incorrect_answers': ['One Hundred and One Dalmatians', 'The Fox and the Hound', 'The Little Mermaid']}, {'type': 'boolean', 'difficulty': 'medium', 'category': 'Geography', 'question': 'Antarctica is the largest desert in the world.', 'correct_answer': 'True', 'incorrect_answers': ['False']}, {'type': 'multiple', 'difficulty': 'medium', 'category': 'Entertainment: Music', 'question': 'Who recorded the album called &quot;Down to the Moon&quot; in 1986?', 'correct_answer': 'Andreas Vollenweider', 'incorrect_answers': ['Jean-Michel Jarre', 'Bing Crosby', 'Enya']}, {'type': 'multiple', 'difficulty': 'medium', 'category': 'Celebrities', 'question': 'How much weight did Chris Pratt lose for his role as Star-Lord in &quot;Guardians of the Galaxy&quot;?', 'correct_answer': '60 lbs', 'incorrect_answers': ['30 lbs', '50 lbs', '70 lbs']}, {'type': 'multiple', 'difficulty': 'hard', 'category': 'Entertainment: Film', 'question': 'In the &quot;Jurassic Park&quot; universe, when did &quot;Jurassic Park: San Diego&quot; begin construction?', 'correct_answer': '1985', 'incorrect_answers': ['1988', '1986', '1993']}, {'type': 'boolean', 'difficulty': 'medium', 'category': 'Entertainment: Video Games', 'question': 'The character that would eventually become Dr. Eggman was considered for the role of Sega&#039;s new flagship mascot before Sonic was.', 'correct_answer': 'True', 'incorrect_answers': ['False']}, {'type': 'multiple', 'difficulty': 'hard', 'category': 'Entertainment: Video Games', 'question': 'What military rank is the protagonist &quot;Nomad&quot; in &quot;Crysis&quot;?', 'correct_answer': 'First Lieutenant', 'incorrect_answers': ['Captain', 'First Sargent ', 'Staff Sargent']}, {'type': 'boolean', 'difficulty': 'medium', 'category': 'History', 'question': 'United States President Ronald Reagan was the first president to appoint a woman to the Supreme Court. ', 'correct_answer': 'True', 'incorrect_answers': ['False']}, {'type': 'multiple', 'difficulty': 'medium', 'category': 'Entertainment: Video Games', 'question': 'In &quot;PUBATTLEGROUNDS&quot; what is the name of the Military Base island?', 'correct_answer': 'Sosnovka', 'incorrect_answers': ['Novorepnoye', 'Mylta', 'Yasnaya']}]}
