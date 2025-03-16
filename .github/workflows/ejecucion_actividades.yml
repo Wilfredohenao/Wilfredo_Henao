@@ -27,8 +27,9 @@ jobs:
         run: pip install --upgrade pip
       - name: paso4 - instalar dependencias
         run: pip install -e .
-      - name: paso5 - Ejecutar script de la actividad 1-2 
+      - name: paso5 - Ejecutar script de la actividad 1
         run: python src/pad/actividad_1.py
+      - name: paso6 - Ejecutar script de la actividad 2
         run: python src/pad/actividad_2.py
         
         
