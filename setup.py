@@ -17,7 +17,6 @@ setup(
          "numpy",
         "openpyxl",
         "requests",
-        "guafrom scipy.stats import gaussian_kde",
         "matplotlib"
     ]
     
