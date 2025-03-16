@@ -29,12 +29,13 @@ jobs:
         run: pip install -e .
       - name: paso5 - Ejecutar script de la actividad 1
         run: python src/pad/actividad_1.py
+        run: python src/pad/actividad_2.py
         
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Entrega actividad 1
+          commit_message: Entrega actividad 1-2
           commit_user_name: Wilfredo Henao [GitHub Actions]
           commit_user_email: wilfredo.henao@est.iudigital.edu.co
           commit_author: Wilfredo Henao <wilfredo.henao@est.iudigital.edu.co>
