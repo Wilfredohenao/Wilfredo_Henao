@@ -6,7 +6,7 @@ import os
 class actividad3:
     def __init__(self):
         self.ruta_raiz=os.path.abspath(os.getcwd())
-        self.ruta_act2 = "{}/workspaces/Wilfredo_Henao/src/pad/actividad_3/".format(self.ruta_raiz)
+        self.ruta_act3 = "{}/workspaces/Wilfredo_Henao/src/pad/actividad_3/".format(self.ruta_raiz)
         datos = {
             "n_punto": [1,2,3,4,5,6,7,8,9,10,11,12],
             "detalle":["Crea un DataFrame frutas que luzca así","Crea un DataFrame ventas_frutas que coincida con el diagrama","Crea una variable utensilios con una Serie que tenga el siguiente aspecto:","Descarga el dataset 'wine review' desde Kaggle y cárgalo en un DataFrame llamado review, tal y como se muestra en la figura.","Visualiza las primeras filas del DataFrame","","","","","","",""],
