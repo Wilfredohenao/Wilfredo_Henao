@@ -1,0 +1,13 @@
+n_punto,detalle,resultado
+1,Crea un DataFrame frutas que luzca así,0
+2,Crea un DataFrame ventas_frutas que coincida con el diagrama,0
+3,Crea una variable utensilios con una Serie que tenga el siguiente aspecto:,0
+4,"Descarga el dataset 'wine review' desde Kaggle y cárgalo en un DataFrame llamado review, tal y como se muestra en la figura.",0
+5,Visualiza las primeras filas del DataFrame,/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_5.csv
+6,,0
+7,,0
+8,,0
+9,,0
+10,,0
+11,,0
+12,,0
