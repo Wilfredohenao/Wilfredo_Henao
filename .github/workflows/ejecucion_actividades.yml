@@ -31,7 +31,7 @@ jobs:
         run: python src/pad/actividad_1.py
       - name: paso6 - Ejecutar script de la actividad 2
         run: python src/pad/actividad_2.py
-        name: paso7 - Ejecutar script de la actividad 3
+      - name: paso7 - Ejecutar script de la actividad 3
         run: python src/pad/actividad_3.py
         
         
