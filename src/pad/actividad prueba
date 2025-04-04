@@ -1,0 +1,146 @@
+# Use the following command in the terminal to install kagglehub if needed:
+# pip install kagglehub
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import os
+import os
+# import kagglehub  # Uncomment this line if you install kagglehub and need it
+import os
+import requests
+import zipfile
+
+
+
+
+class actividad3:
+    def __init__(self):
+        self.ruta_winemag =  os.path.join(os.getcwd(), "winemag-data_first150k.csv.zip")
+        self.ruta_raiz=os.path.abspath(os.getcwd())
+        self.ruta_act2 = "{}/src/pad/actividad_3/".format(self.ruta_raiz)
+        datos = {}
+        ruta_winemag = os.path.join(os.getcwd(), "winemag-data_first150k.csv.zip")
+        self.ruta_winemag = ruta_winemag
+        datos = {
+            "n_punto": [1,2,3,4,5,6,7,8,9,10,11,12],
+            "detalle":["Crea un DataFrame frutas que luzca así","","","","","","","","","","",""],
+            "resultado":[0,0,0,0,0,0,0,0,0,0,0,0],
+
+        }
+        self.df = pd.DataFrame(datos)
+        print(self.ruta_raiz)
+
+    def punto_1(self):
+       def punto_1(self):
+        df_1 = pd.DataFrame({
+            "granadilla": [ 20],
+            "tomates": [ 50],
+        })
+        df_1.to_csv(r"/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_0.csv")
+        self.df.loc[0,"resultado"] = "/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_0.csv"
+        print("punto_1")
+    def punto_2(self):
+       def punto_2(self):
+        df_2 = pd.DataFrame(
+            {"Granadilla": [20, 49], "Tomates": [50, 100]},
+            index=["ventas 2021", "ventas 2022"]
+        )
+        self.df.loc[1,"resultado"] = len(self.df)+1
+        print("punto_2")
+    def punto_3(self):
+       def punto_3(self):
+        df_3 = pd.Series(
+            data=["3 unidades", "2 unidades", "4 unidades", "5 unidades"],
+             index=["Cuchara", "Tenedor", "Cuchillo", "Plato"],
+            name="Cocina", dtype= "object"
+        )
+        df_3.to_csv(r"/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_3.csv")
+        self.df.loc[2,"resultado"] = "/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_3.csv"
+        print("punto_3")
+    def punto_4(self):
+      def punto_4(self):
+          def_4 = pd.read_csv(self.ruta_winemag)
+          ruta_winemag = os.path.join(self.ruta_winemag , "winemag-data_first150k.csv.zip")
+          df_4 = df_4.head(5)
+          df_4 = df_4.tail(5)
+          print("punto_4")
+    def punto_5(self):
+      def punto_5( self):   
+         def_5 = pd.read_csv(self.ruta_winemag)
+         ruta_winemag = os.path.join (self.ruta_winemag , "winemag-data_first150k.csv.zip")
+         df_5 = df_5.tail(5)
+         df_5 = df_5.head(5)
+         self.df.loc[5,"resultado"] = len(self.df)
+         print("punto_5")
+    def punto_6(self):
+      def punto_6(self):
+        def_6 = pd.read_csv(self.ruta_winemag_csv)
+        ruta_winemag = os.path.join (self.ruta_winemag , "winemag-data_first150k.csv.zip")
+        df_6 = df_6.info()
+        self.df.loc[6,"resultado"] = "punto_6.csv"
+        print("punto_6")
+    def punto_7(self):
+      def punto_7(self):
+        def_7 = pd.read_csv(self.ruta_winemag_csv)
+        ruta_winemag = os.path.join (self.ruta_winemag , "winemag-data_first150k.csv.zip")
+        df_7 = ['precio'].mean()
+        self.df.loc[7,"resultado"] = len(self.df)
+        print("punto_7")
+    def punto_8(self):
+      def punto_8(self):
+        def_8 = pd.read_csv(self.ruta_winemag_csv)
+        ruta_winemag = os.path.join (self.ruta_winemag , "winemag-data_first150k.csv.zip")
+        df_8 = ['precio'].max()
+        self.df.loc[8,"resultado"] = len(self.df)
+        print("punto_8")
+    def punto_9(self):
+      def punto_9(self):
+        def_9 = pd.read_csv(self.ruta_Californa)
+        ruta_Californa = os.path.join(self.ruta_Californa , "Californa_Wine_Production_1980_2020.csv (91.97 kB)")
+        df_9 = df_9.head()
+        df_9 = df_9.tail()
+        df_9.to_csv(r"/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_9.csv")
+        self.df.loc[2,"resultado"] = "/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_9.csv"
+        print("punto_9")
+    def punto_10(self):
+      def punto_10(self):
+        def_9 = pd.read_csv(self.ruta_Californa)
+        ruta_Californa = os.path.join(self.ruta_Californa , "Californa_Wine_Production_1980_2020.csv (91.97 kB)")
+        df_9 = df_9.idxmax()
+        df_9 = df_9.loc()
+        self.df.loc[10,"resultado"] = len(self.df)
+        print("punto_10")
+    def punto_11(self):
+      def punto_11(self):
+        def_11 = pd.read_csv(self.ruta_Californa)
+        ruta_Californa = os.path.join(self.ruta_Californa , "Californa_Wine_Production_1980_2020.csv (91.97 kB)")
+        def_11 = def_11['uva'].value_counts()
+        self.df.loc[11,"resultado"] = len(self.df)
+        print("punto_11") 
+        self.df.loc[11,"resultado"] = len(self.df)+10
+        print("punto_11")
+    def punto_12(self):
+      def punto_11(self):
+        def_12 = pd.read_csv(self.ruta_Californa)
+        ruta_Californa = os.path.join(self.ruta_Californa , "Californa_Wine_Production_1980_2020.csv (91.97 kB)")
+        def_12 = def_12['uva'].value_counts(10)
+        self.df.loc[12,"resultado"] = len(self.df)
+        print("punto_12")
+
+    def ejecutar(self):
+        self.punto_1()
+        self.punto_2()
+        self.punto_3()
+        self.punto_4()
+        self.punto_5()
+        self.punto_6()
+        self.punto_7()
+        self.punto_8()
+        self.punto_9()
+        self.punto_10()
+        self.punto_11()
+        self.punto_12()
+        self.df.to_csv("actividad3.csv")
+
+act = actividad3()
+act.punto_3()
