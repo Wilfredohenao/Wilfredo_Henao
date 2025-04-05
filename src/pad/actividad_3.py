@@ -34,15 +34,13 @@ class actividad3:
         print("punto_1")
 
     def punto_2(self):
-        df_2 = datos=[[20,49], [50, 100]]
-        ventas=["ventas 2021","ventas 2022"]
-        frutas=["Granadilla","Tomates"]
-        df= pd.DataFrame(datos, index= ventas, columns= frutas )
-        df.to_csv('datos.csv')
-        print(df)
-    # df_2.to_csv(r"/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_2.csv")
-    # self.df.loc[1,"resultado"] = "/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_2.csv"
-    print("punto_2")
+        df_2 = pd.DataFrame(
+            {"Granadilla": [20, 49], "Tomates": [50, 100]},
+            index=["ventas 2021", "ventas 2022"]
+        )
+        df_2.to_csv(r"src/pad/actividad_3/punto_2.csv")
+        self.df.loc[1,"resultado"] = "src/pad/actividad_3/punto_2.csv"
+        print("punto_2")
     def punto_3(self): 
         df_3 = pd.Series(
             data=["3 unidades", "2 unidades", "4 unidades", "5 unidades"],
