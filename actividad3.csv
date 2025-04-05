@@ -1,13 +1,13 @@
 n_punto,detalle,resultado
-1,Crea un DataFrame frutas que luzca así,0
-2,Crea un DataFrame ventas_frutas que coincida con el diagrama,0
-3,Crea una variable utensilios con una Serie que tenga el siguiente aspecto:,0
-4,"Descarga el dataset 'wine review' desde Kaggle y cárgalo en un DataFrame llamado review, tal y como se muestra en la figura.",0
-5,Visualiza las primeras filas del DataFrame,0
-6,Utiliza el método .info() para averiguar cuántas entradas hay. ¿Cuántas encontraste?,0
-7,¿Cuál es el precio promedio?,0
-8,¿Cuál es el precio más alto pagado?,0
-9,Crea un DataFrame con todos los vinos de california,0
-10,Utiliza idxmax() para encontrar el índice del vino con el precio más alto y luego utiliza loc para obtener toda la información de ese vino específico,0
-11,,0
-12,,src/pad/actividad_3/punto_12.csv
+1,Crea un DataFrame frutas que luzca así,src/pad/actividad_3/punto_1.csv
+2,Crea un DataFrame ventas_frutas que coincida con el diagrama,src/pad/actividad_3/punto_2.csv
+3,Crea una variable utensilios con una Serie que tenga el siguiente aspecto:,src/pad/actividad_3/punto_3.csv
+4,"Descarga el dataset 'wine review' desde Kaggle y cárgalo en un DataFrame llamado review, tal y como se muestra en la figura.",src/pad/actividad_3/punto_4.csv
+5,Visualiza las primeras filas del DataFrame,src/pad/actividad_3/punto_5.csv
+6,Utiliza el método .info() para averiguar cuántas entradas hay. ¿Cuántas encontraste?,src/pad/actividad_3/punto_6.csv
+7,¿Cuál es el precio promedio?,src/pad/actividad_3/punto_7.csv
+8,¿Cuál es el precio más alto pagado?,src/pad/actividad_3/punto_8.csv
+9,Crea un DataFrame con todos los vinos de california,src/pad/actividad_3/punto_9.csv
+10,Utiliza idxmax() para encontrar el índice del vino con el precio más alto y luego utiliza loc para obtener toda la información de ese vino específico,src/pad/actividad_3/punto_10.csv
+11,¿Cuáles son los tipos de uva más comunes en California?,src/pad/actividad_3/punto_11.csv
+12,¿Cuáles son los 10 tipos de uva más comunes en California?,src/pad/actividad_3/punto_12.csv
