@@ -26,21 +26,24 @@ class actividad3:
         print(self.ruta_raiz)
         
     def punto_1(self):
-        df_1 = pd.DataFrame({
-            "granadilla": [ 20],
-            "tomates": [ 50],
-        })
-        df_1.to_csv(r"/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_1.csv")
-        self.df.loc[0,"resultado"] = "/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_1.csv"
-    print("punto_1")    
+        df_1 = datos= [[20,50]]
+frutas=["Granadilla","Tomates"]
+df= pd.DataFrame(datos,index=["a"], columns= frutas)
+df.to_csv('datos.csv')
+print(df)
+#df_1.to_csv(r"/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_1.csv")
+#self.df.loc[0,"resultado"] = "/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_1.csv"
+print("punto_1")    
 
     def punto_2(self):
-        df_2 = pd.DataFrame(
-            {"Granadilla": [20, 49], "Tomates": [50, 100]},
-            index=["ventas 2021", "ventas 2022"]
-        )
-        df_2.to_csv(r"/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_2.csv")
-        self.df.loc[1,"resultado"] = "/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_2.csv"
+        df_2 = datos=[[20,49], [50, 100]]
+ventas=["ventas 2021","ventas 2022"]
+frutas=["Granadilla","Tomates"]
+df= pd.DataFrame(datos, index= ventas, columns= frutas )
+df.to_csv('datos.csv')
+print(df)
+       # df_2.to_csv(r"/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_2.csv")
+       # self.df.loc[1,"resultado"] = "/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_2.csv"
         print("punto_2")
     def punto_3(self): 
         df_3 = pd.Series(
