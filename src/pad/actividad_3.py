@@ -23,34 +23,31 @@ class actividad3:
             
         }
         self.df = pd.DataFrame(datos)
-        print(self.ruta_raiz)
-        
+        print(self.ruta_raiz)  
     def punto_1(self):
-        df_1 = datos= [[20,50]]
-frutas=["Granadilla","Tomates"]
-df= pd.DataFrame(datos,index=["a"], columns= frutas)
-df.to_csv('datos.csv')
-print(df)
-#df_1.to_csv(r"/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_1.csv")
-#self.df.loc[0,"resultado"] = "/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_1.csv"
-print("punto_1")    
+        df_1 = pd.DataFrame({
+            "granadilla": [20],
+            "tomates": [50],
+        })
+        df_1.to_csv(r"src/pad/actividad_3/punto_1.csv")
+        self.df.loc[0,"resultado"] = "src/pad/actividad_3/punto_1.csv"
+        print("punto_1")
 
     def punto_2(self):
         df_2 = datos=[[20,49], [50, 100]]
-ventas=["ventas 2021","ventas 2022"]
-frutas=["Granadilla","Tomates"]
-df= pd.DataFrame(datos, index= ventas, columns= frutas )
-df.to_csv('datos.csv')
-print(df)
-       # df_2.to_csv(r"/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_2.csv")
-       # self.df.loc[1,"resultado"] = "/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_2.csv"
-        print("punto_2")
+        ventas=["ventas 2021","ventas 2022"]
+        frutas=["Granadilla","Tomates"]
+        df= pd.DataFrame(datos, index= ventas, columns= frutas )
+        df.to_csv('datos.csv')
+        print(df)
+    # df_2.to_csv(r"/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_2.csv")
+    # self.df.loc[1,"resultado"] = "/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_2.csv"
+    print("punto_2")
     def punto_3(self): 
         df_3 = pd.Series(
             data=["3 unidades", "2 unidades", "4 unidades", "5 unidades"],
             index=["Cuchara", "Tenedor", "Cuchillo", "Plato"],
-            name="Cocina", dtype= "object"
-        )
+            name="Cocina", dtype= "object")
         df_3.to_csv(r"/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_3.csv")
         self.df.loc[2,"resultado"] = "/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_3.csv"
         print("punto_3")
@@ -110,9 +107,9 @@ print(df)
     def ejecutar(self):
       self.punto_1()     
       self.punto_2() 
-      self.punto_3() 
-      self.punto_4() 
-      self.punto_5() 
+      #self.punto_3() 
+      #self.punto_4() 
+      #self.punto_5() 
      #self.punto_6() 
      #self.punto_7() 
      #self.punto_8() 
