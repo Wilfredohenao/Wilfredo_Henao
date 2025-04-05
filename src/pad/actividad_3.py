@@ -45,24 +45,24 @@ class actividad3:
         df_3 = pd.Series(
             data=["3 unidades", "2 unidades", "4 unidades", "5 unidades"],
             index=["Cuchara", "Tenedor", "Cuchillo", "Plato"],
-            name="Cocina", dtype= "object")
-        df_3.to_csv(r"/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_3.csv")
-        self.df.loc[2,"resultado"] = "/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_3.csv"
+            name="Cocina", dtype= "object"
+        )
+        df_3.to_csv(r"src/pad/actividad_3/punto_3.csv")
+        self.df.loc[2,"resultado"] = "src/pad/actividad_3/punto_3.csv"
         print("punto_3")
     def punto_4(self):
-      ruta_winemag = os.path.join(self.ruta_act2, "winemag-data_first150k.csv.zip")
-      df_4 = pd.read_csv(ruta_winemag)
-      df_4 = df_4.head()
-      df_4 = df_4.tail()
-      df_4.to_csv(r"/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_4.csv")   
-      self.df.loc[3,"resultado"] = "/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_4.csv"        
-    print("punto_4") 
+        ruta_winemag = os.path.join(self.ruta_act2, "winemag-data_first150k.csv.zip")
+        df_4 = pd.read_csv(ruta_winemag)
+        df_4 = df_4.head()
+        df_4.to_csv(r"src/pad/actividad_3/punto_4.csv")   
+        self.df.loc[3,"resultado"] = "src/pad/actividad_3/punto_4.csv"        
+        print("punto_4") 
     def punto_5(self):
         ruta_winemag = os.path.join(self.ruta_act2, "winemag-data_first150k.csv.zip")
         df_5 = pd.read_csv(ruta_winemag)
         df_5 = df_5.head()
-        df_5.to_csv(r"/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_5.csv")
-        self.df.loc[4,"resultado"] = "/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_5.csv"
+        df_5.to_csv(r"src/pad/actividad_3/punto_5.csv")
+        self.df.loc[4,"resultado"] = "src/pad/actividad_3/punto_5.csv"
         print("punto_5") 
        
     def punto_6(self):
@@ -105,9 +105,9 @@ class actividad3:
     def ejecutar(self):
       self.punto_1()     
       self.punto_2() 
-      #self.punto_3() 
-      #self.punto_4() 
-      #self.punto_5() 
+      self.punto_3() 
+      self.punto_4() 
+      self.punto_5() 
      #self.punto_6() 
      #self.punto_7() 
      #self.punto_8() 
