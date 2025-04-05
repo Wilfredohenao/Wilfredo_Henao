@@ -68,16 +68,16 @@ class actividad3:
     def punto_6(self):
         df = pd.read_csv(self.ruta_act2, "winemag-data_first150k.csv.zip")
         df_6 = df.info()
-        df_6.to_csv(r"/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_6.csv")
-        self.df.loc[5,"resultado"] = "/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_6.csv"
+        df_6.to_csv()
+        self.df.loc[5,"resultado"] =+1
         print("punto_6") 
     def punto_7(self):
         df_7= pd.DataFrame()
         ruta_winemag = os.path.join(self.ruta_act2, "winemag-data_first150k.csv.zip")
         df = pd.read_csv()
         df_7 = df.mean()
-        df_7.to_csv(r"/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_7.csv")
-        self.df.loc[5,"resultado"] = "/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_7.csv"
+        df_7.to_csv()
+        self.df.loc[5,"resultado"] = +0
         print("punto_7") 
     def punto_8(self):
         df_8 = pd.DataFrame()
@@ -85,8 +85,8 @@ class actividad3:
         print(precio_maximo)
         ruta_winemag = os.path.join(self.ruta_act2, "winemag-data_first150k.csv.zip")
         df = pd.read_csv()  
-        df_8.to_csv("/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_8.csv")
-        self.df.loc[7,"resultado"] = "/workspaces/Wilfredo_Henao/src/pad/actividad_3/punto_8.csv"
+        df_8.to_csv()
+        self.df.loc[7,"resultado"] = +1
         print("punto_8") 
     def punto_9(self):
         self.df.loc[8,"resultado"] = len(self.df)+8
