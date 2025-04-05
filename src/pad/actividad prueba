@@ -81,21 +81,21 @@ class actividad3:
         print("punto_6")
     def punto_7(self):
       def punto_7(self):
-        def_7 = pd.read_csv(self.ruta_winemag_csv)
+        df_7 = pd.read_csv(self.ruta_winemag_csv)
         ruta_winemag = os.path.join (self.ruta_winemag , "winemag-data_first150k.csv.zip")
         df_7 = ['precio'].mean()
         self.df.loc[7,"resultado"] = len(self.df)
         print("punto_7")
     def punto_8(self):
       def punto_8(self):
-        def_8 = pd.read_csv(self.ruta_winemag_csv)
+        df_8 = pd.read_csv(self.ruta_winemag_csv)
         ruta_winemag = os.path.join (self.ruta_winemag , "winemag-data_first150k.csv.zip")
         df_8 = ['precio'].max()
         self.df.loc[8,"resultado"] = len(self.df)
         print("punto_8")
     def punto_9(self):
       def punto_9(self):
-        def_9 = pd.read_csv(self.ruta_Californa)
+        df_9 = pd.read_csv(self.ruta_Californa)
         ruta_Californa = os.path.join(self.ruta_Californa , "Californa_Wine_Production_1980_2020.csv (91.97 kB)")
         df_9 = df_9.head()
         df_9 = df_9.tail()
