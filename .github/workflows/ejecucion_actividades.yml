@@ -42,7 +42,7 @@ jobs:
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Entrega actividad 1, 2 y 3
+          commit_message: Entrega actividad 1, 2, 3 y Final
           commit_user_name: Wilfredo Henao [GitHub Actions]
           commit_user_email: wilfredo.henao@est.iudigital.edu.co
           commit_author: Wilfredo Henao <wilfredo.henao@est.iudigital.edu.co>
